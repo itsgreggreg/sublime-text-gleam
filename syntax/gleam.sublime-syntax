@@ -72,16 +72,19 @@ contexts:
     - include: operator_fn
 
     - match: ','
-      scope: punctuation.separator
+      scope: punctuation.separator.gleam
 
-    - match: '\.'
-      scope: punctuation.accessor
  
     - match: '->'
       scope: keyword.other.arrow.gleam
 
     - match: '|>'
       scope: keyword.other.pipe.gleam
+
+    - match: '({{identifier}})(\.)'
+      captures:
+        1: entity.name.class.gleam
+        2: punctuation.accessor.gleam
 
     - match: '[\[\]\{\}()]|<<|>>'
       scope: support.function.delimiter.gleam
