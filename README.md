@@ -14,7 +14,7 @@ A Sublime text language package for the [Gleam](https://gleam.run) programming l
 For formatting to work you must have `gleam` installed on your computer.
 Follow these instructions for installing `gleam`: https://gleam.run/getting-started/
 
-You can get this package on [Package Control](http://packagecontrol.io).
+You can get this package on [Package Control](https://packagecontrol.io/packages/Gleam).
 
 1. Open up Sublime text
 2. Press `CTRL + Shift + P` inside Sublime Text
