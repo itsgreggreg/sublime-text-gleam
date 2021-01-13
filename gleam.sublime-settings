@@ -1,0 +1,38 @@
+{
+    // Provide an absolute path to the gleam binary.
+    // I might put "/Users/me/.asdf/shims/gleam" if the plugin is
+    // having trouble finding the executable on my PATH.
+    //
+    // If you know you have gleam installed and this plugin isn't
+    // working run "which gleam" in the terminal and paste the
+    // output here.
+    "absolute_path": "/Users/greg/.asdf/shims/gleam",
+
+    // Be more specific about when you run gleam format. You can use
+    // a boolean value to just turn it on and off:
+    //
+    //     "format_on_save": true
+    //     "format_on_save": false
+    //
+    // But if you only want to run gleam format on certain code:
+    //
+    //     "format_on_save": {
+    //         "including": ["my/company/","public/package/"]
+    //     }
+    //
+    // That means gleam-format-on-save is only active if you are editing
+    // a file path that contains one of those strings. You can also do
+    // the reverse and specifically exclude certain files:
+    //
+    //     "format_on_save": {
+    //         "excluding": ["personal/project/","src/generated/"]
+    //     }
+    //
+    //     "format_on_save": {
+    //         "including": ["my/company/"],
+    //         "excluding": ["src/generated/"]
+    //     }
+    //
+    "format_on_save": true
+}
+
