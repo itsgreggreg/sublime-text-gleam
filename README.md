@@ -1,5 +1,9 @@
 # Sublime Text Gleam
 
+A Sublime text language package for the [Gleam](https://gleam.run) programming language.
+
+### Features
+
 - Gleam syntax highlighting
 - Gleam format on save.
 
