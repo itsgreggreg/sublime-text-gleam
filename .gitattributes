@@ -1,5 +1,9 @@
 # Used to remove files from deployment using `git archive`
 # and from GitHub release compressed files.
 
+
+# git files
+.gitattributes export-ignore
+
 # screenshot
 .jpg export-ignore
