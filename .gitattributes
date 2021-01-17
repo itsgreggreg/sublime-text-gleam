@@ -7,3 +7,6 @@
 
 # screenshot
 .jpg export-ignore
+
+# general text files
+README.md export-ignore
