@@ -1,0 +1,5 @@
+# Used to remove files from deployment using `git archive`
+# and from GitHub release compressed files.
+
+# screenshot
+.jpg export-ignore
